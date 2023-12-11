@@ -1,14 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2023-12-11T14:05:57.722Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="0axbKDwc8F99h73XOq7C" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-11T14:40:08.984Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="kpomIu9-Qxj-OdaS5n4W" version="22.1.7" type="github">
   <diagram name="Page-1" id="VEUn1QRplWkCdxmiSeu6">
-    <mxGraphModel dx="1372" dy="1329" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="886" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="DJ_ZuWPLONs3ds_vY1xS-41" value="Safe Zone&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="507" y="326" width="115" height="115" as="geometry" />
+        </mxCell>
         <mxCell id="DJ_ZuWPLONs3ds_vY1xS-1" value="Assembler" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="198" y="373" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DJ_ZuWPLONs3ds_vY1xS-2" value="Optimizers" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="488" y="373" width="80" height="30" as="geometry" />
+          <mxGeometry x="521" y="373" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DJ_ZuWPLONs3ds_vY1xS-10" value="conversion" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#9AC7BF;" edge="1" parent="1" source="DJ_ZuWPLONs3ds_vY1xS-3" target="DJ_ZuWPLONs3ds_vY1xS-2">
           <mxGeometry relative="1" as="geometry" />
@@ -36,13 +39,26 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DJ_ZuWPLONs3ds_vY1xS-16" value="tweaking" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DJ_ZuWPLONs3ds_vY1xS-14">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="386" y="314.5" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="DJ_ZuWPLONs3ds_vY1xS-35" value="Post-Assembler Validator" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="328" y="397" width="132" height="102" as="geometry" />
         </mxCell>
-        <mxCell id="DJ_ZuWPLONs3ds_vY1xS-14" value="PM" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="470" y="267" width="21" height="42" as="geometry" />
+        <mxCell id="DJ_ZuWPLONs3ds_vY1xS-42" value="Data Platform" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontColor=#7EA6E0;" vertex="1" parent="1">
+          <mxGeometry x="198" y="541" width="45" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DJ_ZuWPLONs3ds_vY1xS-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DJ_ZuWPLONs3ds_vY1xS-43" target="DJ_ZuWPLONs3ds_vY1xS-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DJ_ZuWPLONs3ds_vY1xS-43" value="bjson&lt;br&gt;Store" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontColor=#7EA6E0;" vertex="1" parent="1">
+          <mxGeometry x="368" y="550" width="45" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DJ_ZuWPLONs3ds_vY1xS-44" value="Post-Assembler Validator" style="swimlane;whiteSpace=wrap;html=1;fontColor=#7EA6E0;" vertex="1" parent="1">
+          <mxGeometry x="328" y="524" width="132" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="DJ_ZuWPLONs3ds_vY1xS-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=22.5;entryPerimeter=0;" edge="1" parent="1" source="DJ_ZuWPLONs3ds_vY1xS-42" target="DJ_ZuWPLONs3ds_vY1xS-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DJ_ZuWPLONs3ds_vY1xS-48" value="Mapper" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="261" y="560" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
