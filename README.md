@@ -1,4 +1,4 @@
-> In the same way the failures which a man makes in his life are due almost always to some defect in his personality, some weakness of body, or mind, or character, will, or temperament. The only way to overcome these failings is to build up his personality from within, so that he, by virtue of what is within him, may overcome the weakness which was the cause of the failure. It is only those efforts the man himself puts forth that can really help him.
+> Hell is truth seen too late.
 
 <!--
 **d-/d-** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
