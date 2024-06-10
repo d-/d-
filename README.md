@@ -1,16 +1,10 @@
-> Hell is truth seen too late.
-
-<!--
-**d-/d-** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+> Not through discourse, not through the intellect,
+> Not even through study of the scriptures
+> Can the Self be realized.
+> The Self reveals Himself to the one who longs for the Self.
+> Those who long for the Self with all their heart are chosen by the Self as his own.
+> 
+> Not by the weak, not by the unearnest,
+> Not by those who practice wrong disciplines
+> Can the Self be realized.
+> The Self reveals Himself as the Lord of Love to the one who practices right disciplines.
